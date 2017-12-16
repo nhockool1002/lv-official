@@ -23,6 +23,12 @@ class CommentController extends Controller
         
         return redirect('admin/books/geteditbook/'.$bookid)->with('success_mesage','Xóa bình luận thành công');
     }
+    
+    public function getdeleteComment($id){
+        $cmt = Comment::find($id);
+        $cmt->delete();
+        return redirect('admin/comments')->with('success_mesage','Xóa bình luận thành công');
+    }
     public function postComment($id,Request $request){
         		$this->validate($request, 
 						[

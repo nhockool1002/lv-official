@@ -58,6 +58,7 @@ Route::group(['prefix' => 'admin','middleware' => 'adminLogin'],function(){
 	Route::group(['prefix' => 'comments'], function(){
 		Route::get('',['as' => 'comments', 'uses' => 'CommentController@listComment']);
         Route::get('xoacomment/{id}/{bookid}',"CommentController@getXoacomment");
+        Route::get('getdeletecomment/{id}','CommentController@getdeleteComment');
 	});
 	Route::group(['prefix' => 'authors'], function(){
 		Route::get('',['as' => 'authors', 'uses' => 'AuthorController@listAuthor']);
@@ -70,9 +71,18 @@ Route::group(['prefix' => 'admin','middleware' => 'adminLogin'],function(){
 	});
 	Route::group(['prefix' => 'permissions'], function(){
 		Route::get('',['as' => 'permissions', 'uses' => "PermissionController@listPermission"]);
+        Route::get('getaddpermission','PermissionController@getaddPermission');
+        Route::post('postaddpermission','PermissionController@postaddPermission');
+        Route::get('geteditpermission/{id}','PermissionController@geteditPermission');
+        Route::post('posteditpermission/{id}','PermissionController@posteditPermission');
 	});
     Route::group(['prefix' => 'publisher'], function(){
 		Route::get('',['as' => 'publisher', 'uses' => "PublisherController@listPublisher"]);
+        Route::get('getaddpublisher','PublisherController@getaddPublisher');
+        Route::post('postaddpublisher','PublisherController@postaddPublisher');
+        Route::get('geteditpublisher/{id}','PublisherController@geteditPublisher');
+        Route::post('posteditpublisher/{id}','PublisherController@posteditPublisher');
+        Route::get('getdeletepublisher/{id}','PublisherController@getdeletePublisher');
 	});
 });
 
