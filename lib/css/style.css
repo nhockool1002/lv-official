@@ -1,0 +1,216 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Inconsolata', monospace;
+}
+body{
+	font-family: 'Inconsolata', monospace;
+}
+footer{
+	text-align: center;
+}
+input[type="text"]
+{
+    font-family: 'Inconsolata', monospace;
+}
+textarea{
+	font-family: 'Inconsolata', monospace;
+}
+option{
+	font-family: 'Inconsolata', monospace;
+}
+select{
+	font-family: 'Inconsolata', monospace;
+}
+.navbar a{
+	color: white !important;
+}
+.navbar{
+	background: linear-gradient(#0c796f,#010d0c,rgba(111, 161, 197, 0.81));
+}
+.navbar-light .navbar-toggler{
+	border:  rgba(255, 255, 255, 0.22) !important;
+	background: rgba(255, 255, 255, 0.24);
+}
+
+.clearboth{
+	clear:both;
+	margin-bottom: 0.5em;
+}
+.helloadmin{
+	width: auto;
+	border: 2px solid rgba(70, 70, 70, 0.09);
+	border-radius: 10px;
+	background-color: rgba(171, 171, 171, 0.31);
+	margin: 60px 10px 0 10px;
+}
+.system-item{
+	width: 19%;
+	float: left;
+	height: 3.5em;
+	line-height: 3.5em;
+	margin-left: 0.2em;
+	margin-bottom: 0.2em;
+	border-radius:10px;
+	text-align: center;
+	color:lightgrey;
+	background: linear-gradient(#0c796f,#010d0c,rgba(111, 161, 197, 0.81));
+}
+.system-item:hover{
+	background: linear-gradient(rgba(11, 139, 230, 0.88),rgba(2, 63, 107, 0.88),rgba(111, 161, 197, 0.81));
+    color: white;
+	cursor: pointer;
+    transition: 1s ease all;
+}
+.admin-top-title{
+	background-color: rgba(234, 234, 234, 0.82);
+	border-left: 0.5em solid #122858;
+	border-top: 0.05em solid #122858;
+	border-bottom: 0.05em solid #122858;
+	border-right: 0.05em solid #122858;
+}
+.admin-top-title span{
+	color: rgba(50, 107, 57, 0.73);;
+	font-size: 1.7em;
+	font-weight:700;
+}
+.sub-menu{
+	width: 100%;
+}
+.sub-menu ul{
+	list-style-type: none;
+	text-align: left;
+}
+.sub-menu ul li{
+	width: 33.33%;
+	font-size: 17px;
+	float: left;
+}
+.sub-menu ul li a{
+	text-decoration: none;
+	color: darkgreen;
+}
+.sub-menu ul li a:hover{
+	color: darkblue;
+	cursor: pointer;
+	transition: 1s ease all;
+}
+.primary-content-admin{
+	width: 100%;
+	min-height: 200px;
+	height:auto;
+	background-color:rgba(33, 102, 183, 0.06);
+	border-top: 5px solid rgba(181, 181, 181, 0.95);
+}
+.footer-title{
+	font-weight: bolder;
+	font-size: 22px;
+}
+.footer-des{
+	font-size: 14px;
+}
+.footer-copyright{
+	color:red;
+	font-weight: 900;
+}
+.sub-menu{
+	min-height: 3em;
+}
+
+.usertable tr:nth-child(even){
+	 background-color: white;
+	color:black;
+}
+
+.usertable tr:nth-child(odd){
+	 background-color: lightgrey;
+	color:black;
+}
+.paginatebar ul{
+	float: right;
+}
+.paginatebar ul li{
+	background: black;
+	color:white;
+	text-align: center;
+	width: 20px;
+	border-radius: 5px;
+	margin-left: 5px;
+}
+.paginatebar .active{	
+	margin-left: 5px;
+	text-align: center;
+	width: 20px;
+	background: linear-gradient(rgba(11, 139, 230, 0.88),rgba(2, 63, 107, 0.88),rgba(111, 161, 197, 0.81));
+	border-radius: 5px;
+}
+.paginatebar .disabled{
+	margin-left: 5px;
+	text-align: center;
+	width: 20px;
+	background: linear-gradient(rgba(11, 139, 230, 0.88),rgba(2, 63, 107, 0.88),rgba(111, 161, 197, 0.81));
+	border-radius: 5px;
+}
+
+.paginatebar a{
+	color:white;
+	font-weight: bolder;
+}
+.paginatebar a:hover{
+	text-decoration: none;
+}
+/* SOCIAL BUTTON */
+
+/* SOCIAL BUTTON */
+
+/*  TÔ MÀU BACKGROUND KHI BÔI ÐEN CH? */
+::selection {
+background:#aff01e;
+color:#df585b;
+}
+ 
+::-moz-selection {
+background:#aff01e;
+color:#df585b;
+}
+ 
+::-webkit-selection {
+background:#aff01e;
+color:#df585b;
+}
+/*  TÔ MÀU BACKGROUND KHI BÔI ÐEN CH? */
+
+/* Scrollbar */
+
+
+body::-webkit-scrollbar {
+    width: 0.35em;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(47, 181, 47, 0.71);
+  outline: 1px solid black;
+}
+/* Scrollbar */
+@media all and (max-width: 480px) {
+ .system-item{
+	 width: 32.33%;
+	}
+.sub-menu ul li{
+	width: 50%;
+	font-size: 15px;
+}
+}
+@media all and (max-width: 320px) {
+ .system-item{
+	 width: 47%;
+	}
+.sub-menu ul li{
+	width: 50%;
+	font-size: 12px;
+}
+}

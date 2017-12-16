@@ -1,0 +1,147 @@
+/* COMMENT ZONE STYLE  */
+.comment-zone {
+    text-align: left;
+    width:100%;
+}
+h1.comment-zone-title {
+    text-align: left;
+    font-size: inherit;
+    color: #0f5f2f;
+    font-weight: bolder;
+}
+.comment-zone-textarea textarea{
+    width: 90%;
+}
+.comment-zone-submit{
+    width: 90%;
+    text-align: right;
+}
+td.comment-zone-username{
+    height: 10px;
+}
+.cmtbox-info{
+    float:left;
+    display:block;
+    width:400px;
+    padding:0;
+    margin:0
+}
+.cmtbox-img{
+    float:left;
+    display:block
+}
+.cmtbox-username{
+    background-color: #e8e8e8;
+    display: block;
+    font-size: 12px;
+    text-align: left;
+    color: #525252;
+    padding-left: 10px;
+    font-style: italic;
+}
+.cmtbox-content{
+    width: 100%;
+    display: block;
+    font-size: 12px;
+    text-align: left;
+    padding-left: 10px;
+    color: #989898;
+    font-style: oblique;
+}
+.comment-zone-list ul li {
+    padding-bottom: 60px;
+}
+.cmtbox-form {
+    margin-top: -25px;
+}
+span.cmtbox-notice {
+    font-size: 11px;
+    padding-right: 19px;
+    color: #e62424;
+    font-weight: 800;
+}
+
+
+/* AUTHOR ZONE CSS */
+p.authorname {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 27px;
+    color: gainsboro;
+    font-style: italic;
+}
+p.authornickname {
+    color: #154ece;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.infozone {
+    font-family: 'Roboto', sans-serif;
+    background-color: #101010;
+    color: #b9b9b9;
+    padding: 10px 0 10px 15px;
+    border: 1px solid #2d2d2d;
+        text-align: left;
+}
+.infolifezone{
+    font-family: 'Roboto', sans-serif;
+    background-color: #101010;
+    color: #b9b9b9;
+    padding: 10px 0 10px 15px;
+    border: 1px solid #2d2d2d;
+    height: 62%;
+    padding-right: 20px;
+    text-align: justify;
+}
+.infoquotezone{
+    font-family: 'Roboto', sans-serif;
+    background-color: #101010;
+    color: #b9b9b9;
+    padding: 10px 0 10px 15px;
+    border: 1px solid #2d2d2d;
+    height: 30%;
+    padding-right: 20px;
+}
+.info-rl{
+    font-family: 'Roboto', sans-serif;
+    background-color: #101010;
+    color: #b9b9b9;
+    padding: 10px 0 10px 15px;
+    border: 1px solid #2d2d2d;
+    height: 62%;
+}
+span.listinfo {
+    font-size: inherit;
+    color: #ababab;
+    font-weight: 600;
+    padding-right: 5px;
+}
+p.infolife{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: gainsboro;
+    font-style: italic;
+}
+p.infoquote{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: gainsboro;
+    font-style: italic;
+}
+p.infotit-rl{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: gainsboro;
+    font-style: italic;
+}
+.book-rl {
+    margin-bottom: 20px;
+}
+.name-rl {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}

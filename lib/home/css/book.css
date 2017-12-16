@@ -1,0 +1,204 @@
+#panel{
+    text-align: center;
+    border-bottom: 0;
+    box-shadow: 0 10px 10px -10px #8c8b8b;
+}
+
+#flip{
+    text-align: center;
+    color: #007caa;
+    font-size: 30px;
+}
+#flip a{
+    text-decoration: none;
+}
+#panel {
+    padding: 30px;
+    display: none;
+}
+#category-list{
+    -moz-column-count: 3;
+    -moz-column-gap: 10px;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 10px;
+    column-count: 3;
+    column-gap: 10px;
+}
+#category-list li{
+    color: #383838;
+    font-size: 20px;
+    transition: color 0.5s;
+}
+#category-list li:hover{
+    color: #00d3d2;
+}
+#category-list a{
+    text-decoration: none;
+}
+
+.left-shelf{
+    min-height: 80%;
+}
+
+.right-shelf{
+    min-height: 80%;
+}
+
+
+.thumbnail {
+    position: relative;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 170px;
+    border: 1px solid #ddd;
+    opacity: 1.0;
+    transition: opacity 2s;
+
+}
+.thumbnail img:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    opacity: 0.3;
+}
+
+
+.caption p {
+    text-align: justify;
+    text-justify: inter-word;
+		font-size:12px;
+}
+.caption h1{
+    color: #007caa;
+    font-size: 15px;
+    font-weight: 600;
+}
+.caption h2{
+    color:#0ea32c;
+    font-size: 20px;
+}
+
+.center-text-img{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: blue;
+	display:none;
+}
+
+.info-image{
+    border: 1px solid #ddd;
+    position: relative;
+    background-size: 100%;
+
+}
+
+.long-desc-info p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.book-detail p{
+    text-align: left;
+}
+
+.book-detail p{
+    font-size: 15px;
+    transition: color 0.3s;
+}
+.book-detail p:hover{
+/*    color: #007caa;*/
+}
+
+.book-detail a{
+    font-size: 15px;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+.book-detail a:hover{
+/*    color: #0ea32c;*/
+}
+.long-des-contain{
+    font-size: 20px;
+}
+
+hr.stylehr {
+    height: 10px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
+
+
+/*BOOK CONTAIN*/
+
+
+
+/* this is the bit that gives the border color */
+div.list-category h3.title
+{
+display: block;
+padding: 14px 0 15px 0;
+font-size: 20px;
+font-weight: 100;
+margin-bottom: 0px;
+border-bottom: 1px solid;
+}
+
+div.list-category span.list-footer
+{
+display: block;
+padding: 14px 0 15px 0;
+font-size: 20px;
+font-weight: 100;
+margin-bottom: 0px;
+border-bottom: 1px solid;
+}
+
+/* removes the border at the top of the list so it doesnt cover up the border above */
+div.list-category a.list-group-item:first-child
+{
+border-top: 0;
+}
+
+div.list-category .list-footer
+{
+margin-top:-15px;
+}
+
+div.list-category a.list-group-item  
+{
+border-left: 0;
+border-right: 0;
+border-radius: 0;
+border-bottom: 1px solid #E0E4E9;
+color: #4c4c4c; 
+text-decoration: none;
+padding-left: 0;
+padding-right: 0;
+overflow: hidden;
+}
+
+.truncate 
+{
+width: 80%;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+
+.user-info p:nth-child(1){
+    color:#007caa;
+}
+.user-info p span{
+    color:#00d3d2;
+}
+.user-info p{
+    color:#383838;
+}
+.user-info a{
+    text-decoration: none;
+}
